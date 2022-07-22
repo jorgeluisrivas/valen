@@ -468,8 +468,13 @@ background-color:#FFC;
 
 .galeria img {
 	display: inline-block;
-	margin: 0 0 10px 0;
+	margin: 0 10px 10px 0;
 	border: 1px solid rgb(0,0,0);
+}
+
+.galeria{
+	width: 5px auto;
+	text-align: center;
 }
 
 form#order div, form#signup div{
