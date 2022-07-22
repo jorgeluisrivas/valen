@@ -17,8 +17,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 html , body{
 	line-height: 1;
-	background-color: #25488e;
-	background-image: url(../_images/bg-page2.png);
+	background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+	
 }
 
 ol, ul {
@@ -464,7 +466,7 @@ background-color:#FFC;
 	margin-bottom: 25px;
 }
 
-#galeria img {
+.galeria img {
 	display: inline-block;
 	margin: 0 0 10px 0;
 	border: 1px solid rgb(0,0,0);
@@ -539,6 +541,11 @@ h1{
 	font-size: 60px;
 	color: #FFF;
 	font-weight: bold;
+}
+
+h2{
+	text-align: center;
+	padding: 20px;
 }
 a[data-fancybox] img {
 	cursor: zoom-in;
